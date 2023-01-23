@@ -16,3 +16,4 @@ if (key) {
 player.on('timeupdate', throttle(data => {
   localStorage.setItem(storageKey, JSON.stringify(data.seconds));
 }, 1000));
+// frnie3ufu
